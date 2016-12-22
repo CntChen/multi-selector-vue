@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "debug": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "vue": "^2.1.4",
+    "webpack": "2.1.0-beta.27"
+  },
+  "name": "multi-selector-vue",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/CntChen/multi-selector-vue.git",
+    "type": "git"
+  },
+  "author": "cntchen <cntchen@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
+  }
+}
